@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "icon": "sport",
+        "name": "push ups",
+        "target": 10,
+        "days": [
+            {"comment": "First time - the hardest tine"},
+            {"comment": "Second time is easely"}
+        ]
+    },
+    {
+        "id": 2,
+        "icon": "food",
+        "name": "Healthy eating",
+        "target": 10,
+        "days": [
+            {"comment": "Cool!"}
+        ]
+    }
+]
