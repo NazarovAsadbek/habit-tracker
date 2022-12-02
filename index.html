@@ -20,7 +20,7 @@
         <img class="logo" src="/images/logo.svg" alt="Logo Habbit App"/>
         <nav class="menu">
             <div class="menu__list"></div>
-            <button class="menu__add">
+            <button class="menu__add" onclick="togglePopup()">
                 <img src="/images/add.svg" alt="Add button">
             </button>
         </nav>
@@ -50,7 +50,7 @@
             </div>
         </main>
     </div>
-    <div class="cover "> <!-- cover_hidden-->
+    <div class="cover cover_hidden" id="add-habit-popup">
         <div class="popup">
             <h2>New habit</h2>
             <div class="icon-label">Choose icon</div>
@@ -70,7 +70,7 @@
                 <input type="number" name="target" placeholder="Goal">
                 <button type="submit" class="button">Add</button>
             </form>
-            <button class="button popup__close">
+            <button class="button popup__close" onclick="togglePopup()">
                 <img src="./images/close.svg" alt="close svg">
             </button>
         </div>

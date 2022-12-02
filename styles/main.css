@@ -242,6 +242,7 @@ input::placeholder {
 
 .cover_hidden {
     display: none;
+    transition: all .5s;
 }
 
 .popup {
