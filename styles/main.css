@@ -1,223 +1,239 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	font-family: 'Comfortaa', cursive;
-	margin: 0;
-	background-color: #F3F6FD;
-	font-weight: 400;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    background-color: #F3F6FD;
+    font-weight: 400;
 }
 
 .app {
-	display: flex;
+    display: flex;
 }
 
 .logo {
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .panel {
-	background:white;
-	min-height: 100vh;
-	padding: 30px;
+    background: white;
+    min-height: 100vh;
+    padding: 30px;
 }
 
 .menu {
-	display: flex;
-	flex-direction: column;
-	gap: 25px;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
 }
 
 .menu__list {
-	display: flex;
-	flex-direction: column;
-	gap: 25px;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
 }
 
 .menu__item {
-	background: #FFFFFF;
-	box-shadow: 0px 8px 14px rgba(62, 107, 224, 0.12);
-	border-radius: 14px;
-	border:none;
-	height: 45px;
-	width: 45px;
-	cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 14px rgba(62, 107, 224, 0.12);
+    border-radius: 14px;
+    border: none;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
 }
 
 .menu__item:hover {
-	background: #6A6AFB;
+    background: #6A6AFB;
 }
 
 .menu__item:hover img {
-	filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
 }
 
 .menu__item_active {
-	background: #5051F9;
+    background: #5051F9;
 }
 
 .menu__item_active img {
-	filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
 }
 
 .menu__add {
-	background: none;
-	border: 1px solid #CAD5FF;
-	border-radius: 14px;
-	height: 45px;
-	width: 45px;
-	cursor: pointer; 
+    background: none;
+    border: 1px solid #CAD5FF;
+    border-radius: 14px;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
 }
 
 .menu__add:hover {
-	background: #EFF2FF;
+    background: #EFF2FF;
 }
 
 .content {
-	min-width: 900px;
-	padding: 45px;
+    min-width: 900px;
+    padding: 45px;
 }
 
 header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
-	font-size: 30px;
-	line-height: 33px;
-	color: #000000;
+    font-size: 30px;
+    line-height: 33px;
+    color: #000000;
 }
 
 .progress {
-	display: flex;
-	flex-direction: column;
-	gap: 12px;
-	min-width: 235px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 235px;
 }
 
 .progress__text {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .progress__name {
-	font-size: 14px;
-	line-height: 13px;
-	color: #768396;
+    font-size: 14px;
+    line-height: 13px;
+    color: #768396;
 }
 
 .progress__bar {
-	width: 100%;
-	background-color: #E6E9ED;
-	border-radius: 4px;
-	height: 5px;
-	position: relative;
+    width: 100%;
+    background-color: #E6E9ED;
+    border-radius: 4px;
+    height: 5px;
+    position: relative;
 }
 
 .progress__cover-bar {
-	position: absolute;
-	transition: all .5s;
-	height: 5px;
-	border-radius: 4px;
-	background-color: #5051F9;
+    position: absolute;
+    transition: all .5s;
+    height: 5px;
+    border-radius: 4px;
+    background-color: #5051F9;
 }
 
 main {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 .habbit {
-	background: #FFFFFF;
-	border-radius: 10px;
-	display: flex;
-	align-items: center;
-	margin-bottom: 12px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
 }
 
 .habbit__day {
-	background: #FBFAFF;
-	border-radius: 10px 0 0 10px;
-	border-right: 1px solid #E7EBFB;
-	font-size: 14px;
-	line-height: 16px;
-	padding: 20px 40px;
-	min-width: 150px;
+    background: #FBFAFF;
+    border-radius: 10px 0 0 10px;
+    border-right: 1px solid #E7EBFB;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 20px 40px;
+    min-width: 150px;
 }
 
 .habbit__comment {
-	font-size: 16px;
-	line-height: 18px;
-	padding: 20px 25px;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 20px 25px;
 }
 
 .habbit__delete {
-	margin-left: auto;
-	margin-right: 10px;
-	background: none;
-	border: none;
-	cursor: pointer;
-	border-radius: 5px;
-	background: 2px;
+    margin-left: auto;
+    margin-right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: 2px;
 }
 
 .habbit__delete:hover {
-	background: #EFF2FF;
+    background: #EFF2FF;
 }
 
 input {
-	background: #FFFFFF;
-	border: 1px solid #E7EBFB;
-	border-radius: 9px;
-	padding: 12px 20px;
-	font-family: 'Comfortaa', cursive;
-	flex: 1;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 16px;
+    background: #FFFFFF;
+    border: 1px solid #E7EBFB;
+    border-radius: 9px;
+    padding: 12px 20px;
+    font-family: 'Comfortaa', cursive;
+    flex: 1;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 input.error {
-	border: 1px solid red;
+    border: 1px solid red;
 }
 
 input::placeholder {
-	color: #8899A8;
+    color: #8899A8;
 }
 
 .habbit__form {
-	display: flex;
-	gap: 15px;
-	width: 100%;
-	padding: 0px 10px 0px 25px;
-	position: relative;
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding: 0px 10px 0px 25px;
+    position: relative;
 }
 
 .input_icon {
-	padding-left: 45px;
+    padding-left: 45px;
 }
 
 .input__icon {
-	position: absolute;
-	top: 10px;
-	left: 45px;
+    position: absolute;
+    top: 10px;
+    left: 45px;
 }
 
 .button {
-	background: #EDECFE;
-	border-radius: 9px;
-	border: none;
-	font-size: 13px;
-	line-height: 14px;
-	color: #5051F9;
-	padding: 14px 30px;
-	cursor: pointer;
+    background: #EDECFE;
+    border-radius: 9px;
+    border: none;
+    font-size: 13px;
+    line-height: 14px;
+    color: #5051F9;
+    padding: 14px 30px;
+    cursor: pointer;
 }
 
 .button:hover {
-	background: #dcdaff;
+    background: #dcdaff;
+}
+
+.cover {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .25);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cover_hidden {
+	display: none;
 }
