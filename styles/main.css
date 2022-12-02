@@ -181,6 +181,10 @@ input {
 	line-height: 16px;
 }
 
+input.error {
+	border: 1px solid red;
+}
+
 input::placeholder {
 	color: #8899A8;
 }
