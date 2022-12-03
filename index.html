@@ -55,18 +55,19 @@
             <h2>New habit</h2>
             <div class="icon-label">Choose icon</div>
             <div class="icon-select">
-                <button class="icon icon_active">
+                <button class="icon icon_active" onclick="setItem(this, 'sport')">
                     <img src="./images/sport.svg" alt="sport icon">
                 </button>
-                <button class="icon">
+                <button class="icon" onclick="setItem(this, 'water')">
                     <img src="./images/water.svg" alt="water icon">
                 </button>
-                <button class="icon">
+                <button class="icon" onclick="setItem(this, 'food')">
                     <img src="./images/food.svg" alt="food icon">
                 </button>
             </div>
-            <form class="popup__form">
+            <form class="popup__form" onsubmit="addHabbit(event)">
                 <input type="text" name="name" placeholder="Name">
+                <input type="text" name="icon" hidden placeholder="Icon" value="sport">
                 <input type="number" name="target" placeholder="Goal">
                 <button type="submit" class="button">Add</button>
             </form>
